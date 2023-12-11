@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "NumeneraCompanion",
-    "slug": "NumeneraCompanion",
+    "name": "Numenera Companion",
+    "slug": "Numenera Companion",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,12 +20,12 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#000000"
       },
       "package": "ca.phoenixmedia.numeneracompanion"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon.png"
     }
   }
 }
