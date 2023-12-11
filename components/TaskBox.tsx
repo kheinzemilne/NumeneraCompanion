@@ -15,7 +15,7 @@ const TaskBox = (props: TaskBoxProps) => {
     return (
         <View style={STYLES.taskBox}>
             <LinearGradient colors={['rgba(0,0,0,0.8)', 'rgba(139,0,139,0.8)']} style={STYLES.taskBoxGradient}>
-                <Text style={[STYLES.taskBoxTitle, STYLES.beige]}>Task Difficulty Andrea</Text>
+                <Text style={[STYLES.taskBoxTitle, STYLES.beige]}>Task Difficulty</Text>
                 <SelectList 
                     setSelected={setSelected} 
                     data={DIFFICULTIES.getDifficultyList()} 
